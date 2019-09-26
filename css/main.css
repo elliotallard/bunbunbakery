@@ -16,6 +16,19 @@ body {
 }
 
 
+
+#home {
+	margin: auto;
+	vertical-align: middle;
+	padding: 30vh 0;
+}
+
+#home_right {
+	border-left: 4px solid grey;
+	/*border-radius: 10px;*/
+}
+
+
 #section1 a {
 	font: 33px "Montserrat", "Avenir";
 	color: black;
@@ -117,25 +130,25 @@ img {
 }
 
 .nav {
-	font: 20px "Montserrat", "Avenir";
+/*	font: 20px "Montserrat", "Avenir";
 	padding: 1%;
 	position: fixed;
 	top: 0;
-	width: 100%;
+	width: 100%;*/
 }
 
-.nav a {
+/*.nav a {
 	text-decoration: none;
 	color: #000000;
 	cursor: pointer;
 	padding: 6px;
-}
+}*/
 
-#right-nav a {
+/*#right-nav a {
 	margin-left: 1em;
-}
+}*/
 
-.nav a:hover {
+/*.nav a:hover {
 	color: white;
 	background-color: #3eba8f;
 	padding: 6px;
@@ -153,7 +166,7 @@ img {
 	padding: 6px;
 	border-radius: 10px;
 	opacity: 1;
-}
+}*/
 
 
 
