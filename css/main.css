@@ -1,0 +1,237 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
+body {
+	font: 17px "Montserrat", "Avenir";
+	line-height: 1.3em;
+	background: #FFFFFF;
+}
+
+/*All things section1*/
+
+#section1 {
+  height: 100vh;
+}
+
+
+#section1 a {
+	font: 33px "Montserrat", "Avenir";
+	color: black;
+	text-decoration: none;
+	position: relative;
+	padding-bottom: 0;
+	margin-bottom: 2px;
+}
+
+#section1 a:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	/*max-width: 100px;*/
+	height: 4px;
+	left: 0;
+	bottom: 0;
+	background-color: black;
+	visibility: hidden;
+	transform: scaleX(0);
+	transition: all 0.3s ease-out;
+}
+
+
+#section1 a:hover:before {
+	visibility: visible;
+	left: 0;
+	transform: scaleX(1);
+}
+
+
+
+#section2 {
+  height: 100vh;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+#section1 h1 {
+	font: 33px "Montserrat", "Avenir";
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+
+.fadeInShort {
+	opacity: 1;
+	animation-name: fadeInOpacityShorter;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.3s;
+}
+
+.fadeInLong{
+	opacity: 1;
+	animation-name: fadeInOpacityLonger;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 5s;
+}
+
+
+
+
+img {
+	display:block;
+	margin: auto;
+}
+
+.icon {
+	transition: all .3s ease-out;
+}
+
+.icon:hover {
+	transform: scale(1.1) translateY(-3px);
+}
+
+
+@keyframes fadeInOpacityShorter {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInOpacityLonger {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.nav {
+	font: 20px "Montserrat", "Avenir";
+	padding: 1%;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+	padding: 6px;
+}
+
+#right-nav a {
+	margin-left: 1em;
+}
+
+.nav a:hover {
+	color: white;
+	background-color: #3eba8f;
+	padding: 6px;
+	border-radius: 10px;
+	opacity: 1;
+	animation-name: fadeInOpacityShorter;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .5s;
+}
+
+.nav a.active {
+	color: white;
+	background-color: #3eba8f;
+	padding: 6px;
+	border-radius: 10px;
+	opacity: 1;
+}
+
+
+
+
+/*Citation - https://css-tricks.com/snippets/css/typewriter-effect/*/
+.typewriter h1{
+   overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    animation: 
+    	typing 1.3s steps(10, end), 
+    	blink-caret .75s steps(50, end) infinite;
+}
+
+.typewriter {
+    display: inline-flex;
+}
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #3eba8f; }
+}
+
+.span {
+	margin: auto;
+}
+
+.desc img {
+	float: right;
+	display: block;
+	max-width: 256px;
+	max-height: 256px;
+}
+
+.links img {
+	float: left;
+}
+
+.github img{
+	float:right;
+}
+
+.linkedin img{
+	float:left;
+}
+
+
+#section2 h1 {
+	font: 41px "Montserrat", "Avenir";
+	margin-block-start: 0.0em;
+    margin-block-end: 0.0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#section2 h3 {
+	font: 22px "Montserrat", "Avenir";
+	margin-block-start: 0.0em;
+    margin-block-end: 1.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}

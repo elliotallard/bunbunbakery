@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Elliot Allard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My personal website." />
+    <meta name="keywords" content="elliot, elliot allard, cmu, is, hci, carnegie mellon university, carnegie mellon, information systems, human computer interaction, esa" />
+    <link rel="stylesheet" href="css/main.css">
+	    <!-- Latest compiled and minified CSS -> from getbootstrap.com --> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+
+<header>
+	<div class="nav sticky-top" id="nav">
+		<div class="row">
+			<div class="col-md-8">
+				<a href='#section1' class="page active">HOME</a>
+			</div>
+  			<div class="col-md-4" id="right-nav" style="text-align:right;">
+				<a href='work.html' class="page">WORK</a>
+				<a href='static/resume.pdf' target="_blank" class="page">RESUME</a>
+				<a href='#section2' class="page">ABOUT</a>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<body>
+	<div id="section1">
+		<div class="row row-eq-height">
+			<div id="title" class="col-md-3 col-md-offset-3">
+				BunBun <br>
+				Bakery
+			</div>
+			<div class="col-md-3 col-md-offset-1">
+				hi
+			</div>
+		</div>
+
+		<a href="#section2"><img class="fadeInLong icon" src="down_icon.png" width="3%" height="3%"></a>
+
+		<!-- <br>
+		<center>
+			<br>
+			<br>
+			<div class="typewriter">	
+				<h1> Hi, I'm Elliot </h1>
+			</div>
+			<br>
+			<br>
+			<img src="me.jpg" width="40%" height="40%">
+			<h1 class="fadeInLong"> I study <a href="https://www.cmu.edu/information-systems/" target="_blank">information systems</a> & <a href="https://hcii.cmu.edu/" target="_blank">human computer interaction</a> <br/> at Carnegie Mellon University. </h1>
+			<br>
+			
+		</center> -->
+
+	</div>
+	
+	<div id="section2">
+		<div class="container vertical-center">
+			<div class="row row-eq-height">
+
+				<!-- ROW 1 -->
+				<div class="col-1"></div> <!-- for spacing -->
+				<div class="col-3 desc">
+					<img src="me_again.jpg">
+				</div>
+				<div class="col-7">
+					<h1>Elliot Allard</h1>
+					<h3> CMU Class of 2020 
+					<br/>
+					B.S. in Information Systems and
+					<br/>
+					Human Computer Interaction, Double Major
+					</h3>
+					
+					<div class="row row-eq-height links">
+						<div class="col-lg-3">
+							Resume: <br/>
+							
+						</div>
+						<div class="col-lg-3">
+							Courses Taken: <br/>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-1"></div> <!-- for spacing -->
+
+				<!-- ROW 2 -->
+				<div class="col-1"></div> <!-- for spacing -->
+				<div class="col-10">
+					<br><br>
+					I love people, human-centered design, and computers. On this portfolio, some of my work in design, software development, and professional & technical writing is displayed. Some notable courses I have taken were in computer science, application and database design & development, and user-centered research. 
+
+					<br><br>
+					I am fascinated by what the technology of today is capable of, whether it be social media platforms, AI warehouse robots, or even facial recognition software. 
+					At the same time, I am incredibly invested in the people and environment affected by these developments, whether it be economically, culturally, or psychologically. I believe that future generations of technology can be beautiful, and solve some of the world's toughest problems. But, I also believe that it can exacerbate these same problems, or create new ones. 
+
+					<br><br>
+					With that said, I want to be part of technology/experience generation with a focus on the people who would be using or affected by it. Our world needs it.
+					<br><br>
+					<center>
+						eallard@andrew.cmu.edu
+					</center>
+					<br>
+				</div>
+				<div class="col-1"></div> <!-- for spacing -->
+
+				<!-- ROW 3 -->
+				<div class="col-6 github">
+					<a href="https://www.github.com/elliotallard" target="_blank"><img src="./static/github.png"height="100%" width="8%" class="icon"/></a>
+				</div>
+				<div class="col-6 linkedin">
+					<a href="https://www.linkedin.com/in/elliotallard/" target="_blank"><img src="static/linkedin.png" height="100%" width="8%" class="icon"/></a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</body>
+
+
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("nav");
+var btns = header.getElementsByClassName("page");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+
+
+
+
+</html>

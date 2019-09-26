@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Elliot Allard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My personal website." />
+    <meta name="keywords" content="elliot, elliot allard, cmu, is, hci, carnegie mellon university, carnegie mellon, information systems, human computer interaction, esa" />
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <link rel="stylesheet" href="css/work.css">
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <link rel="stylesheet" href="css/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+</head>
+
+<header>
+	<div class="nav fadeInLong" id="nav">
+		<div class="row">
+			<div class="col-md-8">
+				<a href='index.html#section1' class="page">HOME</a>
+			</div>
+  			<div class="col-md-4" id='right-nav' style="text-align:right;">
+				<a href='work.html' class="page active">WORK</a>
+				<a href='static/resume.pdf' target="_blank" class="page">RESUME</a>
+				<a href='index.html#section2' class="page">ABOUT</a>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+
+
+<body>
+
+  <div class="row justify-content-center work">
+    Work
+  </div>
+
+  
+
+  <section class="layout-cards container" id="section1">
+    <h1 class="section-title"><i>design</i></h1>
+    <div class="row justify-content-center">
+      <div class="col-8 col-sm-12 col-lg-12">
+        <div class="card-deck">
+
+          <section class="card my-4 project">
+            <a href="work_detail.html">
+            <img class="card-layout-img card-img-top img-fluid" src="images/ontime.jpg">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">User-Centered Research</h5>
+            </div>
+          </section>
+
+          <section class="card my-4 project">
+            <a href="trueDonate.html">
+            <img class="card-layout-img card-img-top img-fluid" src="images/trueDonate.jpeg">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Responsive Web Design</h5>
+            </div>
+          </section>
+
+          <section class="card my-4 project">
+            <a href="work_detail.html">
+            <img class="card-layout-img card-img-top img-fluid" src="images/nightowlbakery.jpg">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Computing 4 Good</h5>
+            </div>
+          </section>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <h1 class="section-title"><i>software development</i></h1>
+    <div class="row justify-content-center">
+      <div class="col-8 col-sm-12 col-lg-12">
+        <div class="card-deck">
+
+          <section class="card my-4 project">
+            <a href="work_detail.html">
+            <img class="card-layout-img card-img-top img-fluid" src="images/trueDonate.jpeg">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Responsive Web Design</h5>
+            </div>
+           <!--  </a> -->
+          </section>
+
+          <section class="card my-4 project">
+            <a href="work_detail.html">
+            <img class="card-layout-img card-img-top img-fluid" src="images/trueDonate.jpeg">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Responsive Web Design</h5>
+            </div>
+          </section>
+
+          <section class="card my-4 project">
+            <a href="work_detail.html">
+            <img class="card-layout-img card-img-top img-fluid" src="images/trueDonate.jpeg">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Responsive Web Design</h5>
+            </div>
+          </section>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <h1 class="section-title"><i>art</i></h1>
+    <div class="row justify-content-center">
+      <div class="col-8 col-sm-12 col-lg-12">
+        <div class="card-deck">
+
+          <section class="card my-4 project">
+            <a href="work_detail.html">
+            <img class="card-layout-img card-img-top img-fluid" src="images/trueDonate.jpeg">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Responsive Web Design</h5>
+            </div>
+           <!--  </a> -->
+          </section>
+
+          <section class="card my-4 project">
+            <a href="work_detail.html">
+            <img class="card-layout-img card-img-top img-fluid" src="images/trueDonate.jpeg">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">User-Centered Research</h5>
+            </div>
+          </section>
+
+          <section class="card my-4 project">
+            <a href="work_detail.html">
+            <img class="card-layout-img card-img-top img-fluid" src="images/trueDonate.jpeg">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Night Owl Ba</h5>
+            </div>
+          </section>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("nav");
+var btns = header.getElementsByClassName("page");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+
+</html>
