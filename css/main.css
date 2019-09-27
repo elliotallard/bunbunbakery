@@ -183,6 +183,41 @@ header {
 
 
 
+
+
+
+
+
+
+
+/* DETAIL PAGE */
+
+
+.myButton {
+	background-color:#f9f3e2;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #9b9b9b;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background-color:#f4cf71;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
 .fadeInShort {
 	opacity: 1;
 	animation-name: fadeInOpacityShorter;
