@@ -6,13 +6,38 @@ html {
 body {
 	font: 17px "Montserrat", "Avenir";
 	line-height: 1.3em;
-	background: #FFFFFF;
+	background-color: #F9F3E2;
 }
+
+
+header {
+	background-color: #F9F3E2;
+}
+
+.navbar-nav li{
+	padding: 5px 10px 5px 10px;
+	margin: 0px 10px 0px 10px;
+	border: 3px solid #9B9B9B;
+	border-radius: 100px;
+	letter-spacing: 5px;
+}
+
+.bg-light {
+	background-color: #F9F3E2;
+}
+
+
+
+
+
+
+
 
 /*All things section1*/
 
 #section1 {
   height: 100vh;
+  background-color: #F9F3E2;
 }
 
 
@@ -20,12 +45,23 @@ body {
 #home {
 	margin: auto;
 	vertical-align: middle;
-	padding: 30vh 0;
+	padding: 3vh 0;
+	background-color: #F9F3E2;
 }
 
 #home_right {
 	border-left: 4px solid grey;
-	/*border-radius: 10px;*/
+	padding-left: 50px;
+	/*border-radius: 65px;*/
+}
+
+#home img {
+	display:block;
+}
+
+#section1 h1 {
+	font: 80px "Montserrat", "Avenir";
+	letter-spacing: 2px;
 }
 
 
@@ -60,6 +96,32 @@ body {
 }
 
 
+#nav_down {
+	margin: auto;
+	float: middle;
+	padding: 5px 10px 5px 10px;
+	margin: 0px 10px 0px 10px;
+/*	border: 3px solid #9B9B9B;*/
+	border-radius: 100px;
+	letter-spacing: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #section2 {
   height: 100vh;
@@ -71,11 +133,7 @@ body {
 
 
 
-#section1 h1 {
-	font: 33px "Montserrat", "Avenir";
-	text-align: center;
-	letter-spacing: 2px;
-}
+
 
 
 .fadeInShort {
@@ -97,10 +155,7 @@ body {
 
 
 
-img {
-	display:block;
-	margin: auto;
-}
+
 
 .icon {
 	transition: all .3s ease-out;
