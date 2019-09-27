@@ -12,6 +12,9 @@ body {
 
 header {
 	background-color: #F9F3E2;
+	/*position: absolute;*/
+	/*float: right;*/
+	/*height: 100px;*/
 }
 
 .navbar-nav li{
