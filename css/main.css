@@ -39,7 +39,7 @@ header {
 /*All things section1*/
 
 #section1 {
-  height: 100vh;
+  height: 90vh;
   background-color: #F9F3E2;
 }
 
@@ -123,13 +123,39 @@ header {
 
 
 
-
+/* ALL THINGS SECTION 2*/
 
 
 #section2 {
-  height: 100vh;
+  height: 90vh;
   vertical-align: middle;
+  background-color: #F9F3E2;
 }
+
+
+#section2 h2 {
+	font: 25px "Montserrat", "Avenir";
+	margin-block-start: 0.0em;
+    margin-block-end: 0.0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+#section2 h3 {
+	font: 22px "Montserrat", "Avenir";
+	margin-block-start: 0.0em;
+    margin-block-end: 1.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#section2 img {
+	margin: auto;
+	float: center;
+}
+
+
 
 
 
@@ -283,21 +309,7 @@ header {
 }
 
 
-#section2 h1 {
-	font: 41px "Montserrat", "Avenir";
-	margin-block-start: 0.0em;
-    margin-block-end: 0.0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
 
-#section2 h3 {
-	font: 22px "Montserrat", "Avenir";
-	margin-block-start: 0.0em;
-    margin-block-end: 1.5em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
 
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
