@@ -95,26 +95,8 @@ header {
 	margin-bottom: 2px;
 }
 
-#section1 a:before {
-	content: '';
-	position: absolute;
-	width: 100%;
-	/*max-width: 100px;*/
-	height: 4px;
-	left: 0;
-	bottom: 0;
-	background-color: black;
-	visibility: hidden;
-	transform: scaleX(0);
-	transition: all 0.3s ease-out;
-}
 
 
-#section1 a:hover:before {
-	visibility: visible;
-	left: 0;
-	transform: scaleX(1);
-}
 
 
 #nav_down {
@@ -185,12 +167,53 @@ header {
 
 
 
-
-
-
-
-
 /* DETAIL PAGE */
+
+
+.flex-container.six {
+	max-width: 100px;
+}
+
+.flex-container.dozen {
+	max-width: 170px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #f9f3e2;
+  border:1px solid #9b9b9b;
+  border-radius:10px;
+  margin: 10px;
+  padding: 5px;
+  flex-wrap: wrap;
+  cursor:pointer;
+  justify-content: center;
+  max-width: 100px;
+}
+
+.flex-container > div {
+  margin: -3px;
+  font-size: 20px;
+  padding-bottom: 4px;
+}
+
+.flex-container:hover {
+	background-color:#f4cf71;
+}
+.flex-container:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.bunIcon {
+	float: middle;
+	margin: auto;
+	width: 30px;
+	height: 33px;
+	padding-bottom: 3px;
+}
 
 
 .myButton {
@@ -212,7 +235,7 @@ header {
 	width: 40px;
 }
 
-.myButton bun_icon{
+.myButtonBunIcon{
 	background-color:#f9f3e2;
 /*	-moz-border-radius:28px;
 	-webkit-border-radius:28px;*/
@@ -227,7 +250,7 @@ header {
 	padding-bottom: 10px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffee66;
-	height: 80px;
+	height: 70px;
 	width: 40px;
 }
 
@@ -247,23 +270,31 @@ header {
 	padding-bottom: 3px;
 }
 
-
-
-.fadeInShort {
-	opacity: 1;
-	animation-name: fadeInOpacityShorter;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 1.3s;
+.myButtonBunIcon img {
+	float: middle;
+	margin: auto;
+	width: 30px;
+	height: 33px;
+	padding-bottom: 3px;
 }
 
-.fadeInLong{
-	opacity: 1;
-	animation-name: fadeInOpacityLonger;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 5s;
+.price {
+	min-height: 100px;
 }
+
+.price > h2 {
+	position: absolute;
+	bottom: 0;
+
+}
+
+
+
+
+
+
+
+
 
 
 
