@@ -40,14 +40,31 @@ const markActive = (rowOfButtons, scope) => {
 
     // Add the active class to the current/clicked button
     this.className += " active";
-    console.log(current[0].className);
+
+    
   });
 }
 }
 
+//This function changes the price when a number of buns is selected.
+// const changePrice = (scope) => {
+// 	let bunPrice = 3;
+// 	var current = scope.getElementsByClassName("active");
+// 	console.log(current[0].className);
+// 	if (current.length > 0) {
+// 		console.log(current[0].className);
+// 		if (current.className.includes("one")) {
+// 			document.getElementById("dollars").innerHTML = "$1.00";
+// 		}
+// 	}
+// };
+
 
 markActive(numBtns, numberSection);
 markActive(frostBtns, frostingSection);
+
+
+
 
 
 
