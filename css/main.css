@@ -195,6 +195,36 @@ header {
 
 /* DETAIL PAGE */
 
+#section {
+	height: 90vh;
+ 	background-color: #F9F3E2;
+}
+
+#section h1 {
+	font: 50px "Permanent Marker", "Avenir";
+}
+
+#section p {
+	font: 20px "Montserrat", "Avenir";
+}
+
+/*frosting button labels */
+#section h5 {
+	font: 15px "Montserrat", "Avenir";
+}
+
+/*price */
+#section h2 {
+	font: 40px "Montserrat", "Avenir";
+	font-variant: bold;
+}
+
+#section h4 {
+	font: 23px "Montserrat", "Avenir";
+	color: black;
+}
+
+
 
 /*number selection*/
 
