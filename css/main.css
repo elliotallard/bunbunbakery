@@ -265,6 +265,9 @@ header {
 
 
 
+
+
+
 .bunIcon {
 	float: middle;
 	margin: auto;
@@ -312,6 +315,15 @@ header {
 	width: 30px;
 	height: 30px;
 	padding-bottom: 3px;
+}
+
+
+
+
+/*Style of all active buttons*/
+
+.active {
+	background-color: #f4cf71;
 }
 
 
